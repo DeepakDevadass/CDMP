@@ -1,0 +1,282 @@
+CDMP Data Governance – Questions 1–25 (Fully Authored)
+
+These are unique, CDMP-style questions aligned with DAMA DMBOK concepts.
+
+Q1
+
+What is the primary purpose of Data Governance?
+
+A. Managing database performance
+B. Exercising authority and control over data assets
+C. Designing data models
+D. Managing ETL pipelines
+
+Answer: B
+
+Explanation: Data Governance establishes authority, decision rights, accountability, and oversight for managing data as an enterprise asset.
+
+Q2
+
+Which role is ultimately accountable for the quality and usage of a business data domain?
+
+A. Data Steward
+B. Data Custodian
+C. Data Owner
+D. Data Architect
+
+Answer: C
+
+Explanation: Data Owners have business accountability for data within their domain.
+
+Q3
+
+Who is primarily responsible for monitoring and resolving day-to-day data quality issues?
+
+A. Data Owner
+B. Data Steward
+C. Governance Council
+D. CIO
+
+Answer: B
+
+Q4
+
+Which governance artifact establishes organizational expectations and mandatory requirements?
+
+A. Procedure
+B. Guideline
+C. Policy
+D. Workflow
+
+Answer: C
+
+Q5
+
+A Data Governance Charter typically defines:
+
+A. Physical database design
+B. Scope, objectives, and governance structure
+C. ETL standards
+D. Data retention schedules
+
+Answer: B
+
+Q6
+
+What is the main purpose of a Data Governance Council?
+
+A. Database administration
+B. ETL development
+C. Strategic decision-making and conflict resolution
+D. Metadata management
+
+Answer: C
+
+Q7
+
+Which statement best describes stewardship?
+
+A. Managing infrastructure resources
+B. Managing business meaning, quality, and usage of data
+C. Managing software licenses
+D. Managing backup schedules
+
+Answer: B
+
+Q8
+
+A Data Custodian is primarily responsible for:
+
+A. Business ownership
+B. Technical implementation and protection of data
+C. Policy approval
+D. Defining business terms
+
+Answer: B
+
+Q9
+
+What is the primary objective of a Business Glossary?
+
+A. Store metadata lineage
+B. Define and standardize business terminology
+C. Manage security permissions
+D. Store ETL documentation
+
+Answer: B
+
+Q10
+
+Which governance principle helps reduce conflicting definitions across departments?
+
+A. Data Duplication
+B. Data Standardization
+C. Data Isolation
+D. Data Archiving
+
+Answer: B
+
+Q11
+
+Decision rights within an organization should be defined through:
+
+A. Governance Framework
+B. Data Integration Plan
+C. Data Warehouse Design
+D. Backup Policy
+
+Answer: A
+
+Q12
+
+Which of the following is a common business driver for Data Governance?
+
+A. Query optimization
+B. Regulatory compliance
+C. CPU utilization
+D. Network latency
+
+Answer: B
+
+Q13
+
+Who should sponsor an enterprise Data Governance program?
+
+A. Developers
+B. Database Administrators
+C. Senior Business Leadership
+D. Data Engineers
+
+Answer: C
+
+Q14
+
+Which governance activity is most directly related to accountability?
+
+A. Data Modeling
+B. Defining roles and responsibilities
+C. Metadata harvesting
+D. ETL development
+
+Answer: B
+
+Q15
+
+Which governance artifact describes how a task should be performed?
+
+A. Policy
+B. Standard
+C. Procedure
+D. Principle
+
+Answer: C
+
+Q16
+
+What is the difference between a policy and a standard?
+
+A. Policies are optional, standards are mandatory
+B. Policies define intent, standards define specific requirements
+C. Standards define strategy, policies define implementation
+D. No difference exists
+
+Answer: B
+
+Q17
+
+Which governance model balances centralized oversight with local business ownership?
+
+A. Decentralized
+B. Federated
+C. Isolated
+D. Project-Based
+
+Answer: B
+
+Q18
+
+What is the primary benefit of executive sponsorship for Data Governance?
+
+A. Faster ETL execution
+B. Increased storage capacity
+C. Organizational authority and adoption
+D. Better SQL performance
+
+Answer: C
+
+Q19
+
+Which metric would best measure governance effectiveness?
+
+A. CPU utilization
+B. Percentage of critical data elements with assigned owners
+C. Number of databases
+D. Storage growth rate
+
+Answer: B
+
+Q20
+
+A governance issue arises because two business units use different definitions of "Customer." What should happen first?
+
+A. Developers choose one definition
+B. Governance process is used to establish an enterprise definition
+C. Ignore the issue
+D. Create separate databases
+
+Answer: B
+
+Q21
+
+What is the primary purpose of Data Governance policies?
+
+A. Define technical architecture
+B. Establish management direction and expectations
+C. Create reports
+D. Configure databases
+
+Answer: B
+
+Q22
+
+Which governance principle states that data should have clearly assigned accountability?
+
+A. Transparency
+B. Accountability
+C. Standardization
+D. Compliance
+
+Answer: B
+
+Q23
+
+A Data Steward discovers duplicate customer records affecting reports. What should be their first action?
+
+A. Delete records immediately
+B. Investigate and coordinate remediation through governance processes
+C. Ignore the duplicates
+D. Change source systems
+
+Answer: B
+
+Q24
+
+Which of the following is NOT typically a governance responsibility?
+
+A. Defining ownership
+B. Managing policies
+C. Monitoring stewardship activities
+D. Writing application code
+
+Answer: D
+
+Q25
+
+An organization has policies but no enforcement mechanisms. What governance component is most likely missing?
+
+A. Data Model
+B. Accountability Structure
+C. ETL Framework
+D. Metadata Repository
+
+Answer: B
