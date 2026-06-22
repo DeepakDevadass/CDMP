@@ -1,1 +1,392 @@
-Read
+Data Governance – CDMP Study Notes
+1. What is Data Governance?
+
+Definition:
+The exercise of authority, control, and shared decision-making over the management of data assets.
+
+Purpose:
+
+Ensure data is managed as a strategic asset.
+Improve data quality.
+Reduce risk and regulatory issues.
+Define accountability and ownership.
+Enable business value from data.
+
+Key Principle:
+
+Data Governance provides direction and oversight, while Data Management executes.
+
+2. Data Governance Framework
+
+Data Governance sits at the center of all data management disciplines.
+
+Governance Responsibilities
+Strategy alignment
+Policy creation
+Standards definition
+Decision rights
+Compliance monitoring
+Issue escalation
+Performance measurement
+Governance Does NOT
+Build ETL pipelines
+Design databases
+Develop reports
+Perform operational data management
+
+These belong to Data Management functions.
+
+3. Data Governance Operating Model
+Centralized
+
+Single governing body controls data decisions.
+
+Pros
+
+Consistency
+Standardization
+
+Cons
+
+Slow decision making
+Decentralized
+
+Business units govern their own data.
+
+Pros
+
+Flexibility
+
+Cons
+
+Inconsistent standards
+Federated (Most Common)
+
+Shared governance between enterprise and business units.
+
+Pros
+
+Balance of control and flexibility
+
+Cons
+
+Requires coordination
+
+CDMP exams frequently favor Federated Governance as the preferred enterprise model.
+
+4. Governance Organization Structure
+Executive Sponsor
+
+Provides funding and strategic direction.
+
+Data Governance Council
+
+Senior decision-making body.
+
+Responsibilities:
+
+Approve policies
+Resolve conflicts
+Prioritize initiatives
+Data Stewardship Council
+
+Coordinates stewardship activities.
+
+Data Owners
+
+Business accountability for data.
+
+Responsibilities:
+
+Approve access
+Define quality expectations
+Define business rules
+Data Stewards
+
+Manage data on behalf of owners.
+
+Responsibilities:
+
+Metadata
+Data quality
+Issue resolution
+Data Custodians
+
+Usually IT teams.
+
+Responsibilities:
+
+Storage
+Security
+Backup
+Technical operations
+5. Data Stewardship
+
+A major CDMP topic.
+
+Business Data Steward
+
+Focus:
+
+Meaning
+Definitions
+Policies
+Quality
+Technical Data Steward
+
+Focus:
+
+Databases
+Metadata
+Data lineage
+Steward Responsibilities
+Define business terms
+Resolve quality issues
+Monitor compliance
+Support governance policies
+6. Decision Rights
+
+Governance defines:
+
+Who Can
+Create standards
+Approve access
+Define quality thresholds
+Resolve conflicts
+Approve changes
+
+Without clear decision rights, governance fails.
+
+7. Data Policies
+
+Policies define required behavior.
+
+Examples:
+
+Data must have an owner.
+Sensitive data must be classified.
+Customer data quality score must exceed 95%.
+
+Good policies are:
+
+Clear
+Enforceable
+Measurable
+Business aligned
+8. Data Standards
+
+Standards support policy implementation.
+
+Examples:
+
+Naming Standards
+
+Customer_ID
+
+instead of
+
+CustNo
+
+Data Definition Standards
+
+Consistent business meaning.
+
+Quality Standards
+
+Accuracy > 98%
+
+Completeness > 95%
+
+9. Data Governance Processes
+Policy Management
+
+Create and maintain policies.
+
+Issue Management
+
+Identify and resolve data problems.
+
+Change Management
+
+Manage governance changes.
+
+Compliance Monitoring
+
+Verify adherence to standards.
+
+Risk Management
+
+Identify data-related risks.
+
+10. Data Governance Metrics
+
+CDMP frequently asks about metrics.
+
+Effectiveness Metrics
+Policy compliance %
+Data quality score
+Number of critical issues resolved
+Stewardship participation
+Metadata completeness
+Maturity Metrics
+Governance adoption
+Business engagement
+Data ownership coverage
+11. Data Governance Success Factors
+Executive Sponsorship
+
+Most critical success factor.
+
+Business Ownership
+
+Governance is primarily a business function.
+
+Defined Roles
+
+Clear accountability.
+
+Communication
+
+Continuous stakeholder engagement.
+
+Measurable Outcomes
+
+Show business value.
+
+12. Data Governance Challenges
+
+Common obstacles:
+
+Lack of executive support
+Unclear ownership
+Cultural resistance
+Poor communication
+Insufficient funding
+Lack of stewardship
+13. Data Governance Deliverables
+
+Know these for the exam.
+
+Policies
+
+Governance rules.
+
+Standards
+
+Implementation requirements.
+
+Procedures
+
+How work is performed.
+
+Business Glossary
+
+Approved business definitions.
+
+Data Catalog
+
+Data asset inventory.
+
+Stewardship Framework
+
+Role definitions and responsibilities.
+
+Governance Charter
+
+Purpose, scope, and authority.
+
+14. Governance vs Management (Important Exam Question)
+Data Governance	Data Management
+Directs	Executes
+Defines Policies	Implements Policies
+Decision Rights	Operational Activities
+Oversight	Day-to-Day Management
+Business Led	Business + IT
+
+Mnemonic:
+
+Governance = Decide and Control
+Management = Do and Operate
+
+15. Frequently Tested CDMP Concepts
+Data Governance Charter
+
+Defines:
+
+Mission
+Scope
+Authority
+Roles
+Responsibilities
+RACI Model
+Responsible
+Accountable
+Consulted
+Informed
+
+Used for governance accountability.
+
+Data Ownership
+
+Owner = Accountable
+
+Steward = Responsible
+
+High-Probability Exam Questions
+What is the primary purpose of Data Governance?
+Exercise authority and control over data assets.
+Which governance model is most commonly used?
+Federated.
+Who is accountable for data?
+Data Owner.
+Who manages data quality on behalf of owners?
+Data Steward.
+Governance is primarily:
+A business function.
+Most critical success factor?
+Executive sponsorship.
+Governance defines:
+Decision rights.
+Governance creates:
+Policies and standards.
+Management performs:
+Operational execution.
+Which document establishes governance authority?
+Governance Charter.
+1-Page Revision Sheet
+
+Data Governance = Authority + Control + Decision Making
+
+Key Roles
+
+Executive Sponsor → Funding
+Governance Council → Decisions
+Data Owner → Accountability
+Data Steward → Quality & Metadata
+Custodian → Technical Operations
+
+Key Outputs
+
+Charter
+Policies
+Standards
+Business Glossary
+Data Catalog
+
+Success Factors
+
+Executive sponsorship
+Business ownership
+Stewardship
+Clear accountability
+
+Most Common Governance Model
+
+Federated
+
+Governance vs Management
+
+Governance = Decide
+Management = Execute
+
+For CDMP Associate preparation, Data Governance, Data Quality, Metadata, Data Architecture, and Data Modeling typically contribute a large portion of the exam questions. Focus on mastering these five domains first.
